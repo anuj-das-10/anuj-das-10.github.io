@@ -1,0 +1,28 @@
+.skill h1{
+    text-align: center;
+}
+.skill{
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.html{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    width: 100%;
+    height: 25px;
+    background-color: rgb(163, 214, 255);
+}
+.html-bar{
+    background: rgb(6, 115, 187);
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    height: 25px;
+
+}
