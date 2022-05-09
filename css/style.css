@@ -788,8 +788,9 @@ header{
     align-items: center;
     margin-top: 4.4rem;
 }
-#port{
-    margin-left: .6rem;
+#port ,#cme{
+   font-size: .7rem;
+   font-weight: 500;
 }
 
     .resume .center h3{
