@@ -10,8 +10,8 @@
 }
 
 :root{
-    --bg-color: #10101a;
-    --main-color: #069A8E;                 /* To Try: #2fbf71,   #781ab8, #c44646, #264796, #6f34c4, #069A8E */
+    --bg-color: #131323;            /* #10101a */
+    --main-color: #069A8E;          /* To Try: #2fbf71,   #781ab8, #c44646, #264796, #6f34c4, #069A8E */
     --2nd-main-color: #ffffffcc;
     --text-color: #fff;
     --big-font: 5rem;
@@ -21,7 +21,7 @@
 
 body{
     background: var(--bg-color);
-    color: var(--text-color);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='758' height='758' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23022F2B' stroke-width='2.5'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%2304665E'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 header{
@@ -91,6 +91,7 @@ section{
 max-width: 100%;
 width: 600px;
 height: auto;
+border-radius: 30rem;
 }
 
 .home-text h5{
@@ -191,6 +192,7 @@ margin: 0 0 20px;
 }
 
 .about-text h2{
+    color: var(--text-color);
     margin-bottom: 0.5rem;
     font-weight: 500;
     font-size: var(--h2-font);
@@ -243,6 +245,10 @@ font-weight: 600;
     font-weight: 300;
     letter-spacing: 2px;
 }
+.box h1{
+    color: var(--text-color);
+
+}
 
 .work-content{
     display: grid;
@@ -289,6 +295,7 @@ font-weight: 600;
     text-align: center;
 }
 .skill h2{
+    color: var(--text-color);
    font-size: 1.5rem;
    font-weight: 600;
 }
@@ -361,7 +368,7 @@ margin-bottom: 20px;
 
 /* Contact Details */
 .contacts-details{
-    background: #0b0b13;
+    background: #0b0b13ce;
 }
 .contacts-info h2{
 font-size: 3rem;
@@ -371,6 +378,11 @@ font-weight: 600;
 .contacts-info h3{
     font-size: 1.5rem;    
 }
+#mail{                                          /*Send Mail*/
+    padding-left: 43px;
+    padding-right: 38px;
+}
+
 
 /* Social Contact Cards */
 
@@ -398,6 +410,7 @@ font-weight: 600;
 
 /* Social Medias Links */
 .socials h1{
+    color: var(--text-color);
     margin-top: 70px;
     font-size: 3rem;
     font-weight: 500;
@@ -487,7 +500,7 @@ transition: all .4s;
 }
 
 .box:hover{
-    background: #0a0a12;
+    background: #0a0a12c3;
     transform: translateY(-15px);
     /* box-shadow: 0px 15px 30px Opx rgb(0 0 0 / 70%); */
 }
@@ -501,7 +514,9 @@ transition: all .4s;
     align-items: center;
 }
 .copyright-info p{
-    font-size: 20px;  
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 23px;  
     letter-spacing: 2px;
 }
 .copyright-info p a{
@@ -551,6 +566,7 @@ header{
 }
 #menu-icon{
     display: block;
+    color: var(--text-color);
 }
 
 .navbar{
@@ -565,7 +581,10 @@ header{
     text-align: left;
     transition: 0.5s ease;
 }
-
+.skill h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+ }
 .navbar a{
     display: block;
     padding: 1rem;
@@ -677,9 +696,13 @@ header{
 
 
 
+
+
+
+
 /* FOR MOBILE VIEW */
 
-@media (max-width: 430px){
+@media (max-width: 480px){
   
     .home{
         grid-template-columns: 1fr;
@@ -696,7 +719,8 @@ header{
         font-size: 1.2rem;
     }
     .btn{
-        font-size: 15px;
+        margin-left: .2rem;
+        font-size: 1rem;
         font-weight: 500;
         
     }
@@ -716,7 +740,7 @@ header{
         border-radius: 30rem;
     }
     .about{
-        margin-top: .5rem;
+        margin-top: -7rem; 
         grid-template-columns: 1fr;
         text-align: center;
         display: flex;
@@ -732,11 +756,14 @@ header{
     .about-img{
         order: 2;  
     }
+    .about-img img{
+    margin-bottom: -6rem;
+    }
     
     .main-btn{
         display: inline-block;
         align-items: center;
-        padding-left: 1.6rem;
+        padding-left: 1rem;
     }
 
     .row p{
@@ -751,13 +778,18 @@ header{
         margin-top: 1rem;
         font-size: .8rem;
     }
-
+.resume{
+    margin-top: -3rem;
+}
 .resume-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,auto));
     grid-gap: 2rem;
     align-items: center;
     margin-top: 4.4rem;
+}
+#port{
+    margin-left: .6rem;
 }
 
     .resume .center h3{
@@ -791,6 +823,9 @@ header{
             font-size: .4rem;
             font-weight: 300;
         }
+        .contact .btn{
+            font-weight: 500;
+        }
         .contact h2{
             letter-spacing: 2px;
             font-size: 1.5rem;
@@ -805,6 +840,12 @@ header{
             font-size: .8rem;
             letter-spacing: normal;
         }
+/* #mail{
+    padding-left: 43px;
+    padding-right: 38px;
+} */
+
+
         .social-contact h3{
             font-size: 1.5rem;
         }
@@ -821,10 +862,17 @@ header{
         .social-icons a i:hover{
             font-size: 3rem;
         }
+    .copyright-info{
+        display: flex;
+        flex-direction: column;
+    }
+    
     .copyright-info p{
         padding: 1em;
+        line-height: .2rem;
         letter-spacing: 1px;
         font-size: .8rem;
+        font-weight: 400;
         text-align: center;
     }
 
