@@ -789,7 +789,8 @@ header{
     margin-top: 4.4rem;
 }
 #port ,#cme{
-   font-size: .7rem;
+    padding-left: 0;
+   font-size: .5rem;
    font-weight: 500;
 }
 
