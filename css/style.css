@@ -223,8 +223,7 @@ font-weight: 600;
 }
 
 
-.main-btn .btn{
-   
+.main-btn .btn{ 
     line-height: 8rem;
     margin-right: 45px;
 }
@@ -763,7 +762,7 @@ header{
     .main-btn{
         display: inline-block;
         align-items: center;
-        padding-left: 1rem;
+        padding-left: 1.2rem;
     }
 
     .row p{
@@ -788,10 +787,16 @@ header{
     align-items: center;
     margin-top: 4.4rem;
 }
-#port ,#cme{
-    padding-left: 0;
-   font-size: .5rem;
-   font-weight: 500;
+
+#port ,#cme{                        /* Portfolio and Contacts Button */
+ font-size: .8rem;
+ font-weight: 500;
+ padding: 0;
+ padding: 10px 15px;
+ /* padding-left: 15px;
+ padding-right: 15px;
+ padding-top: 10px;
+ padding-bottom: 10px; */
 }
 
     .resume .center h3{
