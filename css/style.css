@@ -711,7 +711,7 @@ header{
         grid-gap: 3rem;
         text-align: center;
         margin-top: 80px;
-        height: auto;
+        height: relative;
         display: flex;
         flex-direction: column-reverse;
         margin-top: 17em;
