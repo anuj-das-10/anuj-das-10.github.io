@@ -711,7 +711,7 @@ header{
         grid-gap: 3rem;
         text-align: center;
         margin-top: 80px;
-        height: 100vh;
+        height: auto;
         display: flex;
         flex-direction: column-reverse;
         margin-top: 17em;
@@ -736,10 +736,12 @@ header{
         max-width: 100%;
     }
     .home-img{
-        padding: 2rem 1rem .5rem 1rem;
+        /* padding: 2rem 1rem .5rem 1rem; */
+        position: relative;
 
     }
     .home-img img{
+        position: relative;
         max-width: 100%;
         width: 450px;
         height: auto;
@@ -944,6 +946,12 @@ header{
 @media (max-height: 700px){
     .home{
         height: 110vh;
+    }
+}
+
+@media (max-height: 670px){
+    .home{
+        height: 113vh;
     }
 }
 
