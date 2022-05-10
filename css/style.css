@@ -433,7 +433,7 @@ font-weight: 600;
 
 .social-icons a i:hover{
 font-size: 4.3rem;
-transition: .3s;
+transition: .5s;
 color: var(--main-color);
 }
 
@@ -607,8 +607,8 @@ header{
 
 
 /*FOR TABLET VIEW */
-
-@media (max-width: 1025px){
+/* ******************************************************************************** */
+@media (max-width: 1024px){
     .home{
         grid-template-columns: 1fr;
         grid-gap: 2rem;
@@ -700,12 +700,15 @@ header{
 
 
 /* FOR MOBILE VIEW */
-
+/* ******************************************************************************* */
 @media (max-width: 480px){
-  
+    #menu-icon{
+        display: block;
+        color: var(--text-color);
+    }
     .home{
         grid-template-columns: 1fr;
-        grid-gap: 2rem;
+        grid-gap: 3rem;
         text-align: center;
         margin-top: 80px;
         height: 100vh;
@@ -734,7 +737,7 @@ header{
     }
     .home-img img{
         max-width: 100%;
-        width: 490px;
+        width: 450px;
         height: auto;
         border-radius: 30rem;
     }
@@ -793,10 +796,6 @@ header{
  font-weight: 500;
  padding: 0;
  padding: 10px 15px;
- /* padding-left: 15px;
- padding-right: 15px;
- padding-top: 10px;
- padding-bottom: 10px; */
 }
 
     .resume .center h3{
@@ -847,11 +846,6 @@ header{
             font-size: .8rem;
             letter-spacing: normal;
         }
-/* #mail{
-    padding-left: 43px;
-    padding-right: 38px;
-} */
-
 
         .social-contact h3{
             font-size: 1.5rem;
@@ -860,6 +854,9 @@ header{
             font-size: 2.5rem;
             font-weight: 700;
             letter-spacing: 2px;
+        }
+        .social-icons{
+            overflow: hidden;
         }
 
         .social-icons a i{
@@ -886,4 +883,56 @@ header{
     .copyright-info span{
         display: none;
     }
+}
+
+/* For Very Small Devices */
+@media (max-height: 830px){
+    .home{
+        height: 90vh;
+    }
+}
+@media (max-height: 810px){
+    .home{
+        height: 100vh;
+    }
+}
+@media (max-height: 710px){
+    .home{
+        height: 110vh;
+    }
+}
+@media (max-height: 660px){
+    .home{
+        height: 120vh;
+    }
+}
+@media (max-height: 595px){
+    .home{
+        height: 130vh;
+    }
+}
+
+@media (max-width: 325px){
+    .copyright-info p{
+        font-size: .6rem;
+    }
+    .contact .btn{
+        font-size: 1rem;
+    }
+   #messenger, #mail{
+       font-size: .8rem;
+   }
+   .socials h1{
+       font-size: 2rem;
+       font-weight: 500;
+   }
+  
+.social-icons a i{
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+.social-icons a i:hover{
+    font-size: 2rem;
+}
 }

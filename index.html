@@ -19,6 +19,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&family=Rubik:wght@300;400;500;600;800;900&display=swap" rel="stylesheet"> 
 
+<!-- Animation Library -->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
 
@@ -293,14 +296,19 @@
       </div>
      
     </div>
-  <div class="socials">
+  <div class="socials" data-aos="fade-up" data-aos-delay="500">
     <h1>FIND ME ON!</h1>
     <div class="social-icons" id="social-icons">
-      <a href="https://www.facebook.com/lordanuj.10"><i class='bx bxl-facebook-circle'></i></a>
-      <a href="https://www.instagram.com/lord_anuj_10_/?hl=en"><i class='bx bxl-instagram-alt' ></i></a>
-      <a href="https://twitter.com/CyBeRNaTiCS_"><i class='bx bxl-twitter' ></i></a>
-      <a href="https://www.linkedin.com/in/anuj-das-10/"><i class='bx bxl-linkedin-square' ></i></a>
-      <a href="https://github.com/anuj-das-10"><i class='bx bxl-github'></i></a>
+
+      <a href="https://www.facebook.com/lordanuj.10" data-aos="fade-right" data-aos-delay="1500"><i class='bx bxl-facebook-circle'></i></a>
+      
+      <a href="https://www.instagram.com/lord_anuj_10_/?hl=en"  data-aos="fade-right" data-aos-delay="1000"><i class='bx bxl-instagram-alt'></i></a>
+      
+      <a href="https://twitter.com/CyBeRNaTiCS_" data-aos="zoom-in" data-aos-delay="800"><i class='bx bxl-twitter'></i></a>
+      
+      <a href="https://www.linkedin.com/in/anuj-das-10/" data-aos="fade-left" data-aos-delay="1000"><i class='bx bxl-linkedin-square'></i></a>
+      
+      <a href="https://github.com/anuj-das-10" data-aos="fade-left" data-aos-delay="1500"><i class='bx bxl-github'></i></a>
 
     </div>
   </div>
@@ -320,4 +328,10 @@
 </body>
 <!-- Link to JS -->
 <script src="js/script.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000
+  });
+</script>
 </html>
