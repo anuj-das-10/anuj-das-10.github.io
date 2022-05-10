@@ -729,11 +729,15 @@ header{
     
 .btn::before,
 .btn::after{
-    transition: all .25s;
+    transition: all .3s;
 }
     
     .home-text p{
         max-width: 100%;
+    }
+    .home-img{
+        padding: 2rem 1rem .5rem 1rem;
+
     }
     .home-img img{
         max-width: 100%;
@@ -885,32 +889,87 @@ header{
     }
 }
 
-/* For Very Small Devices */
-@media (max-height: 830px){
+/* For Very Small Devices-----> Height Adjustment */
+
+@media (max-height: 930px) {
+    .home{
+        height: 84vh;
+    }
+}
+
+@media (max-height: 900px) {
+    .home{
+        height: 88vh;
+    }
+}
+
+
+@media (max-height: 880px) {
     .home{
         height: 90vh;
     }
 }
+
+@media (max-height: 820px){
+    .home{
+        height: 92vh;
+    }
+}
 @media (max-height: 810px){
+    .home{
+        height: 94vh;
+    }
+}
+@media (max-height: 780px){
+    .home{
+        height: 96vh;
+    }
+}
+@media (max-height: 760px){
     .home{
         height: 100vh;
     }
 }
-@media (max-height: 710px){
+@media (max-height: 740px){
+    .home{
+        height: 102vh;
+    }
+}
+@media (max-height: 720px){
+    .home{
+        height: 105vh;
+    }
+}
+
+@media (max-height: 700px){
     .home{
         height: 110vh;
     }
 }
-@media (max-height: 660px){
+
+@media (max-height: 645px){
+    .home{
+        height: 115vh;
+    }
+}
+
+@media (max-height: 620px){
     .home{
         height: 120vh;
     }
 }
-@media (max-height: 595px){
+@media (max-height: 590px){
     .home{
-        height: 130vh;
+        height: 125vh;
     }
 }
+@media (max-height: 566px){
+    .home{
+        height: 128vh;
+    }
+}
+
+
 
 @media (max-width: 325px){
     .copyright-info p{
